@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  display: flex;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  margin: 10px 20px;
+}
+
+a {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #c0c0c0;
+}
+
+/* Navigation Styles */
+.nav-links img {
+  display: block;
+  margin: 10px auto;
+  width: 110px;
+  height: 29px;
+  border: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer img {
+  margin-top: 10px;
+}
+
+/* Gallery Styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.gallery img {
+  width: 100px;
+  height: auto;
+  border: none;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Video Styles */
+.video-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+video {
+  width: 640px;
+  max-width: 100%;
+}
+
+/* Sidebar and Main Content */
+#sidebar {
+  width: 180px;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+}
+
+#main {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
